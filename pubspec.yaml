@@ -1,0 +1,16 @@
+name: tamareeni
+description: تماريني - سجّل تمارينك وبرامجك وتابع تطورك
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  model_viewer_plus: ^1.4.0
+
+flutter:
+  uses-material-design: true
